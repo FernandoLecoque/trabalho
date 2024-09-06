@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trabalho</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema Biblioteca - Tela Principal</h1>
+    </header>
+
+    <br><br><br><br><br>
+
+    <section>
+        <h1 id="Carregar">Carregar arquivo CSV</h1>
+        <!-- Formulário para selecionar e enviar o arquivo CSV -->
+        <form id="formCSV">
+            <input type="file" id="arquivoCSV" accept=".csv">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+<div class="container">
+
+ <!--autor-->
+        <div class="card">
+            <div class="card-header">
+                <img src="img/autor.jpg" alt="autor">
+                
+            </div>
+            <div class="card-body">
+                <div id="autores-data"></div>
+                <button class="glow-on-hover" type="button">Autor</button>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+ <!--livros-->
+        <div class="card">
+            <div class="card-header">
+                <img src="img/livros.jpg" alt="livros">
+                
+            </div>
+            <div class="card-body">
+                <div id="livros-data"></div>
+                <button class="glow-on-hover" type="button">Livro</button>
+            </div>
+        </div>
+
+
+
+
+
+ <!--estudante-->
+        <div class="card">
+            <div class="card-header">
+                <img src="img/estudante.jpg" alt="estudante">
+                
+            </div>
+            <div class="card-body">
+                <div id="estudantes-data"></div>
+                <button class="glow-on-hover" type="button">Estudante</button>
+            </div>
+        </div>
+
+
+
+
+
+
+<!--emprestimo-->
+        <div class="card">
+            <div class="card-header">
+                <img src="img/emprestimo.jpg" alt="emprestimo">
+                
+            </div>
+            <div class="card-body">
+                <div id="emprestimos-data"></div>
+                <button class="glow-on-hover" type="button">Emprestimo</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+<script src="script.js"></script>
+    <script src="arquivos.csv/livros-1.csv"></script>
+    <script src="arquivos.csv/autores.csv"></script>
+    <script src="arquivos.csv/estudantes.csv"></script>
+    <script src="arquivos.csv/emprestimo.csv"></script>
+   
+</body>
+</html>
