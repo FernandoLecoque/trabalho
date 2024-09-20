@@ -92,10 +92,6 @@ header {
   text-align: center;
 }
 
-.card-body:hover {
-  background-color: #000000;
-}
-
 .card-body {
   padding: 10px;
   text-align: center;
